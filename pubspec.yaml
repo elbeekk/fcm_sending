@@ -1,9 +1,8 @@
 name: fcm_sending
-description: "A "
-version: 0.0.1
-
+description: "Fcm Sending is a simple Flutter package that helps developers send customized notifications with ease. It automatically converts the notification message body into a Dart model, making it user-friendly and reducing confusion when handling notification data. Perfect for apps that need to integrate push notifications without the hassle of complex payload management."
+version: 0.0.4
+repository: https://github.com/elbeekk/fcm_sending
 homepage:
-
 environment:
   sdk: ^3.5.3
   flutter: ">=1.17.0"
@@ -12,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   googleapis_auth: any
-  http: any
   shared_preferences: any
+  dio: any
 
 dev_dependencies:
   flutter_test:
